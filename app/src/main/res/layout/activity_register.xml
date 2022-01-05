@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCF1F8"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginStart="25dp"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="#FFFFFF"
+        android:hint="Your name"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IC Number"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/ed_ic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="#FFFFFF"
+        android:hint="Your ic number"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/ed_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="#FFFFFF"
+        android:hint="Your email address"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/ed_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="#FFFFFF"
+        android:hint="Your phone number"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="#FFFFFF"
+        android:hint="*********"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/ed_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="#FFFFFF"
+        android:hint="*********"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx_login"
+        android:text="Click here to login "
+        android:textColor="#062BE6"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

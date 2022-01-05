@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCF1F8"
+    tools:context=".user_profile">
+
+
+    <TextView
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Profile Information: "
+        android:textColor="#FF0505"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:paddingLeft="16dp"
+            android:textSize="20dp"
+            android:text="Full Name: "/>
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="285dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:paddingLeft="16dp"
+            android:textSize="20dp"
+            android:text="IC Number: "/>
+
+        <EditText
+            android:id="@+id/et_ic"
+            android:layout_width="285dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="130dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:paddingLeft="16dp"
+            android:textSize="20dp"
+            android:text="Email: "/>
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="330dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="170dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:paddingLeft="16dp"
+            android:text="Phone Number: "/>
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="245dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="210dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:paddingLeft="16dp"
+            android:textSize="20dp"
+            android:text="Gender: "/>
+
+        <EditText
+            android:id="@+id/et_gender"
+            android:layout_width="315dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:paddingLeft="16dp"
+            android:textSize="20dp"
+            android:text="Birthday: "/>
+
+        <EditText
+            android:id="@+id/et_birthday"
+            android:layout_width="305dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"/>
+    </LinearLayout>
+
+</RelativeLayout>

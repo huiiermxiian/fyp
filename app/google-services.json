@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "892724993343",
+    "project_id": "btrma-fa587",
+    "storage_bucket": "btrma-fa587.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892724993343:android:549403df125046dc9f478a",
+        "android_client_info": {
+          "package_name": "com.example.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892724993343-sutpdepaqqgv8er5c1da3sh58p1i1f2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaHjNZ1vXYOa5qNJywZX5N9uGJqjsg5n0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892724993343-sutpdepaqqgv8er5c1da3sh58p1i1f2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

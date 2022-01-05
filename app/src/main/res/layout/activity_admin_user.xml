@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin_user">
+
+    <TextView
+        android:id="@+id/txt_userType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:paddingLeft="16dp"
+        android:textSize="25dp"
+        android:text="User"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/ed_search_user"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:hint="Name"
+            android:paddingLeft="16dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_search"
+            android:text="SEARCH"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_user"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="16dp"
+        android:layout_width="390dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp" />
+
+
+</RelativeLayout>

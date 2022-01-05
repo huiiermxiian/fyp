@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fyp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="BTRMA"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fyp">
+        <activity android:name=".admin_user_info"></activity>
+        <activity android:name=".user_add_ticket" />
+        <activity android:name=".admin_user" />
+        <activity android:name=".user_profile" />
+        <activity android:name=".reset_password" />
+        <activity android:name=".user_main" />
+        <activity android:name=".register" />
+        <activity android:name=".user_page" />
+        <activity
+            android:name=".MainActivity"
+            android:label="BTRMA"
+            android:theme="@style/Theme.Fyp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
