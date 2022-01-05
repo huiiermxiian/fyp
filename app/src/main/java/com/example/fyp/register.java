@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -75,6 +76,8 @@ public class register extends AppCompatActivity {
             userEmail = email.getText().toString().trim();
             userPass = password.getText().toString().trim();
             userConfirmPass = confirmPass.getText().toString().trim();
+
+            Log.d("try","try");
 
             if (username.isEmpty()){
                 name.setError("Information missing!");
